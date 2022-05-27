@@ -15,8 +15,14 @@ CREATE DATABASE cloudService
 - 專案連線資料庫設定: /src/main/webapp/META-INF/context.xml
 
 2. 運作環境
-- Server: Tomcat v9.0 Server
 - JDK: 11
+- Server: Tomcat v9.0 Server
+- 在本地端server/server.xml設定
+```xml
+<Host>
+<Context docBase="CloudToDoListProject" path="/CloudService" reloadable="true" source="org.eclipse.jst.jee.server:CloudToDoListProject"/>
+</Host>
+```
 - 進入網址: http://localhost:8080/CloudService/myTasks
 
 ### 實現功能
