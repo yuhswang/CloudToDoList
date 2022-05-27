@@ -1,0 +1,92 @@
+body{
+    background-color: #E8F9FD;
+}
+
+.nav-header{
+    background-color: #205375;
+}
+
+.nav-header .nav-link,.navbar-brand{
+    color: #FFFFFF;
+}
+
+.nav-header .nav-link,.navbar-brand:hover{
+    color: #FFFFFF;
+}
+
+.main-content{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    min-height: 300px;
+}
+
+.main-content .header{
+    text-align: center;
+}
+
+.main-content .header h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-content .header .form-group{
+    margin: 30px auto;
+}
+
+.main-content .header .form-group .form-control{
+    display: inline-block;
+    width: 70%;
+}
+
+.main-content .header .form-group .invalid-feedback{
+    text-align: left;
+    margin: auto;
+    width: 75%;
+    font-size: 18px;
+}
+
+.main-content .body{
+    margin: 30px auto;
+    width: 77%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus {
+    background-color: #0AA1DD;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(105, 108, 255, 0.4);
+    font-weight: bolder;
+}
+
+.nav-pills .nav-link:not(.active, .disabled) {
+    color: #566a7f;
+}
+
+.nav-pills .nav-link:hover{
+    font-weight: bold;
+    color: #0AA1DD;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.eachItem{
+    margin: 15px 0;
+}
+
+.eachItem .list-content{
+    display: inline-block;
+    max-width: 75%;
+    font-size: 18px;
+}
+
+.eachItem .btn{
+    font-size: 14px;
+}
+
+.eachItem .finishTime{
+    font-size: 16px;
+    color: #566a7f;
+}
