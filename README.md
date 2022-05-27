@@ -1,9 +1,7 @@
 # 專案說明
 
----
 
 ### 環境部屬
-
 ---
 
 1. 資料庫 SQL Server
@@ -13,15 +11,14 @@
 CREATE DATABASE cloudService
 ```
 
-- 資料表設定
+- 資料表設定: 執行/資料庫設定.sql
 - 專案連線資料庫設定: /src/main/webapp/META-INF/context.xml
 
-1. 運作環境
+2. 運作環境
 - Server: Tomcat v9.0 Server
 - JDK: 11
 
 ### 實現功能
-
 ---
 
 1. 新增待辦事項：使用**jQuery**判斷空值，若為空值會顯示錯誤訊息。
