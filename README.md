@@ -17,6 +17,7 @@ CREATE DATABASE cloudService
 2. 運作環境
 - Server: Tomcat v9.0 Server
 - JDK: 11
+- 進入網址: http://localhost:8080/CloudService/myTasks
 
 ### 實現功能
 ---
